@@ -19,17 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b0c933a-af44-48a3-b688-777d555cedb0" name="Default Changelist" comment="add header,nav and section 1,2">
-      <change afterPath="$PROJECT_DIR$/.idea/bootstrap project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6b0c933a-af44-48a3-b688-777d555cedb0" name="Default Changelist" comment="add SASS and Section 2,3,4">
+      <change afterPath="$PROJECT_DIR$/css/styles.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/GooglePlay — копия.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="ComposerSettings">
     <execution />
   </component>
@@ -38,6 +42,8 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="Sass File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -60,15 +66,24 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../node/node_modules/npm/bin/npx.cmd" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/test/css/style.css" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="X:\xampp\htdocs\bootstrap project\test\css" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -82,7 +97,16 @@
       <workItem from="1606199179042" duration="8858000" />
       <workItem from="1606227117734" duration="101000" />
       <workItem from="1606234489063" duration="8654000" />
-      <workItem from="1606285537753" duration="300000" />
+      <workItem from="1606285537753" duration="5441000" />
+      <workItem from="1606291458508" duration="1948000" />
+      <workItem from="1606313993233" duration="3617000" />
+      <workItem from="1606320625769" duration="60000" />
+      <workItem from="1606320735336" duration="33000" />
+      <workItem from="1606320857543" duration="5609000" />
+      <workItem from="1606370267778" duration="26000" />
+      <workItem from="1606370327295" duration="4952000" />
+      <workItem from="1606402331535" duration="10486000" />
+      <workItem from="1606458104555" duration="8275000" />
     </task>
     <task id="LOCAL-00001" summary="add icon">
       <created>1606153428376</created>
@@ -98,7 +122,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606285644052</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add header,nav and section 1,2">
+      <created>1606286004431</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606286004431</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add SASS and Section 2,3,4">
+      <created>1606404636032</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606404636032</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,19 +155,55 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add icon" />
     <MESSAGE value="add header,nav and section 1,2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add header,nav and section 1,2" />
+    <MESSAGE value="add SASS and Section 2,3,4" />
+    <option name="LAST_COMMIT_MESSAGE" value="add SASS and Section 2,3,4" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="847" y="392" key="#File_Watchers" timestamp="1606320192895">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="847" y="392" key="#File_Watchers/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1606320192895" />
+    <state x="847" y="392" key="#File_Watchers/0.40.1920.1040@0.40.1920.1040" timestamp="1606292636806" />
     <state x="715" y="380" key="#Notifications" timestamp="1606285829344">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="715" y="380" key="#Notifications/0.40.1920.1040@0.40.1920.1040" timestamp="1606285829344" />
-    <state x="92" y="132" width="1736" height="856" key="DiffContextDialog" timestamp="1606285977604">
+    <state x="552" y="201" key="#Plugins" timestamp="1606404864755">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="92" y="132" width="1736" height="856" key="DiffContextDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1606285977604" />
+    <state x="552" y="201" key="#Plugins/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1606404864755" />
+    <state x="552" y="201" key="#Plugins/0.40.1920.1040@0.40.1920.1040" timestamp="1606291437530" />
+    <state x="1211" y="386" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1606320190460">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="1211" y="386" key="#com.intellij.ide.macro.MacrosDialog/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1606320190460" />
+    <state x="739" y="367" key="#com.intellij.ide.macro.MacrosDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1606293211724" />
+    <state x="690" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606405207310">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="690" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1606405207310" />
+    <state x="690" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1606293102364" />
+    <state x="703" y="410" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1606291644860">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="703" y="410" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.40.1920.1040@0.40.1920.1040" timestamp="1606291644860" />
+    <state x="92" y="132" width="1736" height="856" key="DiffContextDialog" timestamp="1606291788903">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="92" y="132" width="1736" height="856" key="DiffContextDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1606291788903" />
+    <state x="627" y="348" width="665" height="658" key="EditFileWatcherDialog" timestamp="1606405170717">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="627" y="348" width="665" height="658" key="EditFileWatcherDialog/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1606405170717" />
+    <state x="627" y="348" width="665" height="628" key="EditFileWatcherDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1606293404357" />
+    <state x="740" y="315" key="FileChooserDialogImpl" timestamp="1606319769356">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="740" y="315" key="FileChooserDialogImpl/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1606319769356" />
+    <state x="740" y="315" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1606293232166" />
     <state x="821" y="462" key="Github.ShareDialog" timestamp="1606148899678">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -138,25 +212,34 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="796" y="184" key="Github.UntrackedFilesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1606148927545" />
-    <state x="461" y="205" key="SettingsEditor" timestamp="1606148810722">
+    <state x="777" y="179" key="RollbackChangesDialog" timestamp="1606290915306">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="461" y="205" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1606148810722" />
-    <state x="552" y="293" key="Vcs.Push.Dialog.v2" timestamp="1606285803606">
+    <state x="777" y="179" key="RollbackChangesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1606290915306" />
+    <state x="461" y="205" key="SettingsEditor" timestamp="1606404788997">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
+    <state x="461" y="205" key="SettingsEditor/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1606404788997" />
+    <state x="461" y="205" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1606293407054" />
+    <state x="552" y="293" key="Vcs.Push.Dialog.v2" timestamp="1606404703185">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="552" y="293" key="Vcs.Push.Dialog.v2/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1606404703185" />
     <state x="552" y="293" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1606285803606" />
-    <state x="777" y="470" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606285838359">
+    <state x="777" y="470" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606404541107">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
+    <state x="777" y="470" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1606404541107" />
     <state x="777" y="470" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1040@0.40.1920.1040" timestamp="1606285838359" />
-    <state x="616" y="260" key="run.anything.popup" timestamp="1606235263186">
+    <state x="616" y="260" key="run.anything.popup" timestamp="1606326048586">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
+    <state x="616" y="260" key="run.anything.popup/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1606326048586" />
     <state x="616" y="260" key="run.anything.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1606235263186" />
-    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1606201419521">
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1606404817090">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1606201419521" />
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1606404817090" />
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1606291522553" />
   </component>
 </project>

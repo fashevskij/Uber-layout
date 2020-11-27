@@ -84,6 +84,10 @@ nav {
   font-weight: 400;
   text-transform: uppercase;
 }
+.subheader .subheader_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
 
 .promo {
   min-height: 800px;
@@ -132,8 +136,11 @@ nav {
   color: #ffffff;
   font-size: 18px;
   font-weight: 400;
-  text-align: center;
   text-transform: uppercase;
+}
+.promo .promo_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
 }
 
 .title {
@@ -212,6 +219,7 @@ nav {
 .mobile .row {
   margin-top: 32px;
 }
+
 .mobile_item {
   position: relative;
   width: 320px;
@@ -220,24 +228,31 @@ nav {
   margin-bottom: 19px;
   padding-top: 92px;
 }
+
 .mobile_item_1 {
   background: url("../img/phone1.png") center center/cover no-repeat;
 }
+
 .mobile_item_2 {
   background: url("../img/phone2.png") center center/cover no-repeat;
 }
+
 .mobile_item_3 {
   background: url("../img/phone3.png") center center/cover no-repeat;
 }
+
 .mobile_item_4 {
   background: url("../img/phone4.png") center center/cover no-repeat;
 }
+
 .mobile_item_5 {
   background: url("../img/phone5.png") center center/cover no-repeat;
 }
+
 .mobile_item_6 {
   background: url("../img/phone6.png") center center/cover no-repeat;
 }
+
 .mobile_item_subtitle {
   color: #ffffff;
   font-size: 24px;
@@ -246,6 +261,7 @@ nav {
   text-align: center;
   text-transform: uppercase;
 }
+
 .mobile_item_plus {
   display: flex;
   justify-content: center;
@@ -262,29 +278,51 @@ nav {
   transform: translate(-50%);
   cursor: pointer;
 }
+.mobile_item_plus:before {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 2px;
+  background-color: #1eacc7;
+  transition: 0.5s all;
+}
+.mobile_item_plus:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  height: 14px;
+  width: 2px;
+  background-color: #1eacc7;
+  transition: 0.5s all;
+}
+.mobile_item_plus:hover:before, .mobile_item_plus:hover:after {
+  background-color: #ff5656;
+}
 
 .car {
   min-height: 900px;
   position: relative;
 }
-.car_b {
+.car .car_b {
   padding: 57px 0 138px 0;
   min-height: 500px;
   background-color: #070716;
 }
-.car_b .title {
+.car .car_b .title {
   color: black;
   background-color: white;
 }
-.car_b .name {
+.car .car_b .name {
   color: #ffffff;
   margin-top: 32px;
 }
-.car_b .subtitle {
+.car .car_b .subtitle {
   color: #ffffff;
   margin-top: 15px;
 }
-.car_img {
+.car .car_img {
   height: 480px;
   position: absolute;
   left: 50%;
@@ -292,15 +330,15 @@ nav {
   top: 235px;
   z-index: 1;
 }
-.car_w {
+.car .car_w {
   height: 390px;
   width: 100%;
   position: absolute;
   left: 50%;
   transform: translate(-50%);
-  background: url("../img/bg-4.png");
+  background: url("../img/bg-4.png") center center/cover no-repeat;
 }
-.car_w h3 {
+.car .car_w h3 {
   color: #222222;
   font-size: 17px;
   font-weight: 300;
@@ -310,4 +348,174 @@ nav {
   margin: 217px 0 138px 0;
 }
 
-/*# sourceMappingURL=style.css.map */
+.require {
+  padding: 68px 0 84px 0;
+}
+.require_block {
+  margin: 33px 0;
+}
+.require_block_no_mbm {
+  margin-bottom: 0px;
+}
+.require_title {
+  color: #1ca8c3;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.require_list {
+  list-style-type: none;
+  padding-left: 50px;
+  margin-top: 22px;
+}
+.require_list li {
+  position: relative;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.require_list li:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -32px;
+  top: 3px;
+  width: 20px;
+  height: 20px;
+  background: url("../img/blue-ok.png") center center/cover no-repeat;
+}
+.require_desc {
+  color: #1ca8c3;
+  font-weight: 300;
+}
+.require .warning .require_title {
+  color: #ff5656;
+}
+.require .warning .require_list li:before {
+  background: url("../img/red-ok.png") center center/cover no-repeat;
+}
+
+.map {
+  min-height: 717px;
+  padding: 49px 0 49px 0;
+  background: url("../img/bg-world.png") center center/cover no-repeat;
+}
+.map .title {
+  color: black;
+  background-color: #ffffff;
+  width: 76px;
+  height: 24px;
+}
+.map .name {
+  color: #ffffff;
+  margin-top: 32px;
+}
+.map .subtitle {
+  color: #ffffff;
+  margin-top: 20px;
+}
+.map a {
+  display: block;
+  color: #1fbad6;
+  text-align: center;
+  margin-top: 486px;
+}
+
+.footer {
+  height: 148px;
+  padding-top: 14px;
+  position: relative;
+}
+.footer .border_blue {
+  width: 299px;
+  height: 4px;
+  background-color: #1fbad6;
+  margin: 0 auto;
+}
+.footer .border_black {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 8px;
+  background-color: #070716;
+}
+.footer .footer_desc {
+  text-align: center;
+}
+.footer .footer_desc .footer_desc_block1 {
+  height: 20px;
+  margin: 0;
+  padding: 4px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 18px;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.footer .footer_desc .footer_desc_block1 li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: center;
+}
+.footer .footer_desc .footer_desc_block1 li {
+  margin-left: 19px;
+  margin-right: 19px;
+}
+.footer .footer_desc .footer_desc_block1 a {
+  color: #070716;
+}
+.footer .footer_desc .footer_desc_block2 {
+  height: 20px;
+  margin: 0;
+  padding: 4px;
+  font-size: 11px;
+  font-weight: 300;
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+.footer .footer_desc .footer_desc_block2 li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: center;
+}
+.footer .footer_desc .footer_desc_block2 a {
+  color: #999999;
+}
+.footer .footer_desc .rus {
+  font-size: 11px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+.footer .footer_desc .rus a {
+  color: #1fbad6;
+}
+.footer .footer_app {
+  position: absolute;
+  display: inline-block;
+  right: 23px;
+  top: 52px;
+}
+.footer .footer_social {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 153px;
+  left: 23px;
+  top: 52px;
+}
+.footer .footer_social .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  width: 32px;
+  height: 32px;
+  background-color: #070716;
+}
+
+/*# sourceMappingURL=styles.css.map */
