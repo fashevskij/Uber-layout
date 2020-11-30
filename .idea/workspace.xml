@@ -20,12 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b0c933a-af44-48a3-b688-777d555cedb0" name="Default Changelist" comment="add SASS and Section 2,3,4">
-      <change afterPath="$PROJECT_DIR$/css/styles.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/GooglePlay — копия.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/_general.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/_mixin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/favicon/favicon/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/menu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,6 +115,11 @@
       <workItem from="1606370327295" duration="4952000" />
       <workItem from="1606402331535" duration="10486000" />
       <workItem from="1606458104555" duration="8275000" />
+      <workItem from="1606486559018" duration="2692000" />
+      <workItem from="1606547279804" duration="9979000" />
+      <workItem from="1606630613175" duration="3022000" />
+      <workItem from="1606664285768" duration="7086000" />
+      <workItem from="1606720242980" duration="2511000" />
     </task>
     <task id="LOCAL-00001" summary="add icon">
       <created>1606153428376</created>

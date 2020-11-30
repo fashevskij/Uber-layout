@@ -1,0 +1,431 @@
+@media (max-width: 1200px) {
+  .menu {
+    .menu_item {
+      padding-right: 20px;
+    }
+
+    .menu_link {
+      font-size: 13px;
+    }
+  }
+  .promo {
+    .promo_header {
+      font-size: 50px;
+    }
+  }
+  .advantages {
+    .advantage_block {
+      align-items: flex-start;
+
+      .text {
+        width: 300px;
+      }
+    }
+  }
+  .mobile {
+    .mobile_item {
+      width: 289px;
+    }
+  }
+  .footer {
+    .footer_app {
+      right: 10px;
+
+      img {
+        width: 80px;
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .menu {
+    .menu_item {
+      padding-right: 8px;
+    }
+
+    .menu_link {
+      font-size: 10px;
+    }
+  }
+  .subheader {
+    .subheader_logo {
+      img {
+        width: 100%;
+      }
+    }
+
+    .subheader_official {
+      font-size: 11px;
+    }
+
+    .subheader_phone {
+      font-size: 15px;
+    }
+
+    .subheader_btn {
+      margin-top: 21px;
+      width: 100%;
+      height: 40px;
+    }
+  }
+  .promo {
+    .promo_header {
+      font-size: 40px;
+    }
+
+    .promo_subheader {
+      font-size: 30px;
+    }
+  }
+  .advantages {
+    .advantage_block {
+      flex-direction: column;
+      align-items: center;
+      margin-block: 0 auto;
+      margin-right: 0;
+    }
+
+    .text {
+      margin-top: 20px;
+    }
+  }
+  .mobile {
+    .mobile_item {
+      width: 210px;
+    }
+  }
+  .footer {
+
+    .footer_app {
+      top: 100px;
+    }
+
+    .footer_social {
+      top: 95px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  nav {
+    width: 100%;
+
+    .hamburger {
+      display: block;
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 30px;
+
+      span {
+        display: block;
+        height: 2px;
+        width: 100%;
+        margin-bottom: 3px;
+        background-color: white;
+        transition: 0.5s all;
+      }
+
+      &_active {
+        span {
+          margin-bottom: -2px;
+
+          &:nth-child(1) {
+            transform: translateY(3px) rotate(-45deg);
+          }
+
+          &:nth-child(2) {
+            display: none;
+          }
+
+          &:nth-child(3) {
+            transform: translateY(3px) rotate(45deg);
+          }
+        }
+      }
+    }
+
+  }
+  .menu {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100vh;
+    padding: 20px 15px;
+    background-color: rgba(0, 0, 0, .8);
+    transition: 0.6s all;
+
+    &_active {
+      left: 0;
+    }
+
+    .menu_item {
+      padding-right: 0;
+      border: none;
+      margin: 10px 0;
+    }
+
+    .menu_link {
+      font-size: 20px;
+    }
+  }
+  .xs-hidden {
+    display: none;
+  }
+  .xs-visible {
+    display: block;
+  }
+  .subheader {
+    &_phone {
+      color: $color_white;
+      font-size: 14px;
+      font-weight: 400px;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    .subheader_btn {
+      width: 200px;
+      height: 40px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 10px;
+    }
+  }
+  .promo {
+    .promo_header {
+      line-height: 45px;
+    }
+  }
+  .car {
+    min-height: 600px;
+
+    .car_b {
+      min-height: 340px;
+    }
+
+    .car_img {
+      height: 300px;
+      top: 225px;
+
+      img {
+        width: 360px;
+      }
+    }
+
+    .car_w {
+      height: 280px;
+
+      h3 {
+        margin: 150px 0 100px 0;
+      }
+    }
+  }
+  .footer {
+    height: 180px;
+
+    .footer_app {
+      top: 140px;
+    }
+
+    .footer_social {
+      top: 135px;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  nav {
+    height: 30px;
+  }
+  header {
+    height: 30px;
+  }
+  .subheader {
+    height: 60px;
+    top: 30px;
+
+    .subheader_official {
+      display: none;
+    }
+
+    .subheader_phone {
+      font-size: 12px;
+      margin-top: 11px;
+    }
+
+    .subheader_btn {
+      margin-top: 6px;
+      width: 110px;
+      font-size: 10px;
+      height: 24px;
+    }
+  }
+  .promo {
+    min-height: 400px;
+    padding: 163px 0 35px 0;
+
+    .promo_desc {
+      display: none;
+    }
+
+    .promo_header {
+      font-size: 30px;
+      padding: 0 24px;
+      line-height: 35px;
+    }
+
+    .promo_subheader {
+      font-size: 20px;
+      line-height: 25px;
+      margin-top: 33px;
+    }
+
+    .promo_btn {
+      margin-top: 70px;
+      width: 210px;
+      height: 50px;
+      &:hover{
+        background-image: linear-gradient(to top, $main-color 0%, #4ce2ff 100%);
+      }
+    }
+  }
+  .menu {
+    width: 85%;
+    .menu_item{
+      width: 100%;
+      text-align: center;
+      padding: 5px;
+      .menu_item{
+        display: block;
+      }
+    }
+  }
+  .advantages {
+    padding: 22px 0 36px 0;
+
+
+    .name {
+      font-size: 16px;
+      margin-top: 15px;
+      line-height: 16px;
+    }
+
+    .advantage_block {
+      .text {
+        width: 280px;
+        margin: 25px;
+        text-align: center;
+      }
+
+      .advantage_icon {
+        width: 100px;
+        height: 100px;
+      }
+    }
+  }
+  .mobile .mobile_item {
+    width: 280px;
+  }
+  .car {
+    min-height: 340px;
+
+    .car_b {
+      padding: 25px 0 28px 0;
+
+      .name {
+        display: none;
+      }
+
+      .subtitle {
+        display: none;
+      }
+
+      .car_text {
+        display: block;
+        color: white;
+      }
+    }
+
+    .car_img {
+      height: 260px;
+      top: 80px;
+
+      img {
+        width: 310px;
+      }
+    }
+
+    .car_w {
+      display: none;
+    }
+  }
+  .require {
+    padding: 30px 0 84px 0;
+  }
+  .map {
+    height: 400px;
+
+    .subtitle {
+      margin-top: 10px;
+    }
+
+    .name {
+      margin-top: 20px;
+    }
+
+    a {
+      margin-top: 140px;
+      font-size: 20px;
+    }
+  }
+  .footer {
+    height: 230px;
+
+    .footer_desc {
+      .footer_desc_block1 {
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 15px;
+      }
+
+      .footer_desc_block2 {
+        font-size: 15px;
+        font-weight: 300;
+        margin-top: 20px;
+      }
+
+      .rus {
+        margin-top: 30px;
+      }
+    }
+
+    .border_black {
+      display: none;
+    }
+
+    .footer_app {
+      position: relative;
+      left: 50%;
+      top: 50px;
+      transform: translateX(-50%);
+
+      img {
+        width: 90px;
+      }
+    }
+
+    .footer_social {
+      top: 153px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
+
